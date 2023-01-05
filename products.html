@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="container-fluid">
+                <div class="header__inner header__white">
+                    <a class="header__logo-link" href="#">
+                        <img class="header__logo" src="images/logo.png" alt="logo">
+                    </a>
+                    <div class="header__burger" id="burger" onclick="lockScroll();">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li class="header__item header__item--box">
+                                <a class="header__item-link" href="#">
+                                    SERVICES
+                                    <svg class="header__item-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 6L2.41095e-10 1.4L1.55556 0L5 3.2L8.44444 0L10 1.4L5 6Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <div class="header__list-drop-down">
+                                    <ul class="header__services-list">
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="services-1.html">
+                                                MOBILE APPLICATION DEVELOPMENT
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link " href="services-2.html">
+                                                GAME DEVELOPMENT OUTSOURCING
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="services-3.html">
+                                                VR APP DEVELOPMENT
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="services-4.html">
+                                                DEDICATED DEVELOPERS
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="services-5.html">
+                                                SDK DEVELOPMENT
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="services-6.html">
+                                                3D MODELING SERVICES
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="services-7.html">
+                                                AR APP DEVELOPMENT
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__item header__item--box">
+                                <a class="header__item-link" href="#">
+                                    TECHNOLOGIES
+                                    <svg class="header__item-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 6L2.41095e-10 1.4L1.55556 0L5 3.2L8.44444 0L10 1.4L5 6Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <div class="header__list-drop-down">
+                                    <ul class="header__services-list header__technologies-list">
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="technologies-1.html">
+                                                ANDROID
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link " href="technologies-2.html">
+                                                IOS
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="technologies-3.html">
+                                                UNITY
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__item header__item--underline">
+                                <a class="header__item-link" href="products.html">
+                                    PRODUCTS
+                                </a>
+                            </li>
+                            <li class="header__item header__item--underline">
+                                <a class="header__item-link" href="portfolio.html">
+                                    PORTFOLIO
+                                </a>
+                            </li>
+                            <li class="header__item header__item--underline">
+                                <a class="header__item-link" href="blog.html">
+                                    BLOG
+                                </a>
+                            </li>
+                            <li class="header__item header__item--box">
+                                <a class="header__item-link" href="#">
+                                    ABOUT US
+                                    <svg class="header__item-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 6L2.41095e-10 1.4L1.55556 0L5 3.2L8.44444 0L10 1.4L5 6Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                                <div class="header__list-drop-down">
+                                    <ul class="header__services-list header__about-list">
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="about-1.html">
+                                                CONTACTS
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link " href="about-2.html">
+                                                TEAM
+                                            </a>
+                                        </li>
+                                        <li class="header__services-item">
+                                            <a class="header__services-link" href="about-3.html">
+                                                JOIN THE TEAM
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header__contact_wrapper">
+                            <a class="header__contact header__contact-transparent" href="contact-us.html">
+                                CONTACT US
+                            </a>
+                        </div>
+                        <buttom class="header__menu-close" onclick="lockScroll();">close</buttom>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="breadcrumbs">
+                <div class="container-fluid">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="index.html" class="breadcrumbs__item-link">Home</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="#" class="breadcrumbs__item-link">Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="services-header services-header__products">
+                <div class="container-fluid">
+                    <div class="services-header__top services-header__position">
+                        <h1 class="services-header__title">
+                            Stan assets products
+                        </h1>
+                        <img class="services-header__images" src="images/services/products-1.png" alt="images">
+                    </div>
+                </div>
+                
+            </section>
+            <div class="header__social">
+                <div class="header__social-box">
+                    <div class="header__social-content">
+                        <a class="header__social-link" href="#">
+                            <img class="header__social-images" src="images/icons/facebook.svg" alt="facebook">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__social-box">
+                    <div class="header__social-content">
+                        <a class="header__social-link" href="#">
+                            <img class="header__social-images" src="images/icons/linkedin.svg" alt="linkedin">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__social-box">
+                    <div class="header__social-content">
+                        <a class="header__social-link" href="#">
+                            <img class="header__social-images" src="images/icons/whatsapp.svg" alt="whatsapp">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__social-box">
+                    <div class="header__social-content">
+                        <a class="header__social-link" href="#">
+                            <img class="header__social-images" src="images/icons/skype.svg" alt="skype">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section class="products-category">
+                <div class="container-fluid">
+                    <div class="products-category__inner">
+                        <ul class="products-category__list">
+                            <li class="products-category__item">
+                                <a class="products-category__item-link" href="#">
+                                    <div class="products-category__image-box">
+                                        <img class="products-category__images" src="images/products/products-1.jpg"
+                                            alt="images">
+                                        <div class="products-category__images-icons">
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-1.svg" alt="unity">
+                                            </a>
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-2.svg" alt="githab">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="products-category__item-box">
+                                        <h5 class="products-category__item-title">
+                                            Ultimate mobile pro
+                                        </h5>
+                                        <p class="products-category_item-text">
+                                            This plugin provides easy and flexible functionality of iOS native
+                                            functions which are not natively available from Unity.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products-category__item">
+                                <a class="products-category__item-link" href="#">
+                                    <div class="products-category__image-box">
+                                        <img class="products-category__images" src="images/products/products-2.jpg"
+                                            alt="images">
+                                        <div class="products-category__images-icons">
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-1.svg" alt="unity">
+                                            </a>
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-2.svg" alt="githab">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="products-category__item-box">
+                                        <h5 class="products-category__item-title">
+                                            android native pro
+                                        </h5>
+                                        <p class="products-category_item-text">
+                                            This plugin provides easy and flexible functionality of iOS native
+                                            functions which are not natively available from Unity.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products-category__item">
+                                <a class="products-category__item-link" href="#">
+                                    <div class="products-category__image-box">
+                                        <img class="products-category__images" src="images/products/products-3.jpg"
+                                            alt="images">
+                                        <div class="products-category__images-icons">
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-1.svg" alt="unity">
+                                            </a>
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-2.svg" alt="githab">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="products-category__item-box">
+                                        <h5 class="products-category__item-title">
+                                            ios native pro
+                                        </h5>
+                                        <p class="products-category_item-text">
+                                            This plugin provides easy and flexible functionality of iOS native
+                                            functions which are not natively available from Unity.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products-category__item">
+                                <a class="products-category__item-link" href="#">
+                                    <div class="products-category__image-box">
+                                        <img class="products-category__images" src="images/products/products-4.jpg"
+                                            alt="images">
+                                        <div class="products-category__images-icons">
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-1.svg" alt="unity">
+                                            </a>
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-2.svg" alt="githab">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="products-category__item-box">
+                                        <h5 class="products-category__item-title">
+                                            after effects importer
+                                        </h5>
+                                        <p class="products-category_item-text">
+                                            This plugin provides easy and flexible functionality of iOS native
+                                            functions which are not natively available from Unity.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products-category__item">
+                                <a class="products-category__item-link" href="#">
+                                    <div class="products-category__image-box">
+                                        <img class="products-category__images" src="images/products/products-5.jpg"
+                                            alt="images">
+                                        <div class="products-category__images-icons">
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-1.svg" alt="unity">
+                                            </a>
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-2.svg" alt="githab">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="products-category__item-box">
+                                        <h5 class="products-category__item-title">
+                                            google doc localization
+                                        </h5>
+                                        <p class="products-category_item-text">
+                                            This plugin provides easy and flexible functionality of iOS native
+                                            functions which are not natively available from Unity.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products-category__item">
+                                <a class="products-category__item-link" href="#">
+                                    <div class="products-category__image-box">
+                                        <img class="products-category__images" src="images/products/products-6.jpg"
+                                            alt="images">
+                                        <div class="products-category__images-icons">
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-1.svg" alt="unity">
+                                            </a>
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-2.svg" alt="githab">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="products-category__item-box">
+                                        <h5 class="products-category__item-title">
+                                            google tag manager
+                                        </h5>
+                                        <p class="products-category_item-text">
+                                            This plugin provides easy and flexible functionality of iOS native
+                                            functions which are not natively available from Unity.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products-category__item">
+                                <a class="products-category__item-link" href="#">
+                                    <div class="products-category__image-box">
+                                        <img class="products-category__images" src="images/products/products-7.jpg"
+                                            alt="images">
+                                        <div class="products-category__images-icons">
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-1.svg" alt="unity">
+                                            </a>
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-2.svg" alt="githab">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="products-category__item-box">
+                                        <h5 class="products-category__item-title">
+                                            texture packer pro
+                                        </h5>
+                                        <p class="products-category_item-text">
+                                            This plugin provides easy and flexible functionality of iOS native
+                                            functions which are not natively available from Unity.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products-category__item">
+                                <a class="products-category__item-link" href="#">
+                                    <div class="products-category__image-box">
+                                        <img class="products-category__images" src="images/products/products-8.jpg"
+                                            alt="images">
+                                        <div class="products-category__images-icons">
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-1.svg" alt="unity">
+                                            </a>
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-2.svg" alt="githab">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="products-category__item-box">
+                                        <h5 class="products-category__item-title">
+                                            amazon native
+                                        </h5>
+                                        <p class="products-category_item-text">
+                                            This plugin provides easy and flexible functionality of iOS native
+                                            functions which are not natively available from Unity.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="products-category__item">
+                                <a class="products-category__item-link" href="#">
+                                    <div class="products-category__image-box">
+                                        <img class="products-category__images" src="images/products/products-9.jpg"
+                                            alt="images">
+                                        <div class="products-category__images-icons">
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-1.svg" alt="unity">
+                                            </a>
+                                            <a class="products-category__icons-link" href="#">
+                                                <img class="products-category__icons-images"
+                                                    src="images/products/icon-2.svg" alt="githab">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="products-category__item-box">
+                                        <h5 class="products-category__item-title">
+                                            google analytics sdk
+                                        </h5>
+                                        <p class="products-category_item-text">
+                                            This plugin provides easy and flexible functionality of iOS native
+                                            functions which are not natively available from Unity.
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="products-category__show">Show more</button>
+                    </div>
+                </div>
+            </section>
+            <section class="looking">
+                <div class="container">
+                    <div class="looking__content">
+                        <h2 class="looking__title">
+                            LOOKING FOR A PARTNER IN BUILDING A SOLUTION?
+                        </h2>
+                        <p class="looking__text">
+                            We are ready to discuss your project requirements
+                        </p>
+                        <a class="looking__bottom" href="#">Let’s talk</a>
+                    </div>
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container">
+                    <div class="contacts__inner">
+                        <div class="contacts__content">
+                            <h2 class="contacts__title title">
+                                contacts
+                            </h2>
+                            <p class="contacts__subtitle">
+                                We are open for dialog and you are welcome to share your opinions or thoughts with us
+                            </p>
+                            <p class="contacts__text">
+                                Hit us up any time through email with any idea and help us turn your great ideas into
+                                brilliant projects
+                            </p>
+                        </div>
+                        <div class="contacts__box">
+                            <div class="contacts__links">
+                                <ul class="contacts__links-list">
+                                    <li class="contacts__links-item">
+                                        <a class="contacts__links-info contacts__links-address" href="#">
+                                            Ukraine, Kyiv, Rodyny Kristeriv 20B, office 188
+                                        </a>
+                                    </li>
+                                    <li class="contacts__links-item">
+                                        <a class=" contacts__links-info contacts__links-number"
+                                            href="tel:+380933455676">
+                                            +38 (093) 345 56 76
+                                        </a>
+                                    </li>
+                                    <li class="contacts__links-item">
+                                        <a class=" contacts__links-info contacts__links-tel" href="tel:+380933455678">
+                                            +38 (093) 345 56 78
+                                        </a>
+                                    </li>
+                                    <li class="contacts__links-item">
+                                        <a class=" contacts__links-info contacts__links-skype" href="#">
+                                            Stanassets
+                                        </a>
+                                    </li>
+                                    <li class="contacts__links-item">
+                                        <a class=" contacts__links-info contacts__links-mail"
+                                            href="mailto:stanAssets@gmail.com">
+                                            stanAssets@gmail.com
+                                        </a>
+                                    </li>
+                                    <li class="contacts__links-item">
+                                        <a class=" contacts__links-info contacts__links-facebook" href="#">
+                                            facebook.com/Stanassets
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contacts__form-info">
+                                <div class="contacts__form-box">
+                                    <form class="contacts__form">
+                                        <input class="contacts__form-input" type="text" placeholder="Name">
+                                        <input class="contacts__form-input" type="email" placeholder="Email">
+                                        <textarea class="contacts__form-textarea" placeholder="Message"></textarea>
+                                        <button class="contacts__form-button" type="submit">
+                                            Send request
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer" id="footer">
+            <div class="footer__top">
+                <div class="container-fluid">
+                    <div class="footer_inner">
+                        <ul class="footer__list">
+                            <li class="footer__item footer__item-social">
+                                <a class="footer__item-logo" href="#">
+                                    <img class="footer__logo-images" src="images/footer-logo.svg" alt="logo">
+                                </a>
+                                <ul class="footer__social-list">
+                                    <li class="footer__socail-item">
+                                        <a href="#" class="footer__social-link">
+                                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M24 12.0301C24 5.38947 18.624 0 12 0C5.376 0 0 5.38947 0 12.0301C0 17.8526 4.128 22.7008 9.6 23.8195V15.6391H7.2V12.0301H9.6V9.02256C9.6 6.70075 11.484 4.81203 13.8 4.81203H16.8V8.42105H14.4C13.74 8.42105 13.2 8.96241 13.2 9.62406V12.0301H16.8V15.6391H13.2V24C19.26 23.3985 24 18.2737 24 12.0301Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="footer__socail-item">
+                                        <a href="#" class="footer__social-link">
+                                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0C5.3736 0 0 5.3736 0 12C0 18.6264 5.3736 24 12 24C18.6264 24 24 18.6264 24 12C24 5.3736 18.6264 0 12 0ZM8.51294 18.1406H5.59039V9.34808H8.51294V18.1406ZM7.05176 8.14746H7.03271C6.052 8.14746 5.41772 7.47235 5.41772 6.6286C5.41772 5.76581 6.07141 5.10938 7.07117 5.10938C8.07092 5.10938 8.68616 5.76581 8.7052 6.6286C8.7052 7.47235 8.07092 8.14746 7.05176 8.14746ZM19.051 18.1406H16.1288V13.4368C16.1288 12.2547 15.7057 11.4485 14.6483 11.4485C13.8409 11.4485 13.3601 11.9923 13.1488 12.5173C13.0715 12.7051 13.0527 12.9677 13.0527 13.2305V18.1406H10.1303C10.1303 18.1406 10.1686 10.173 10.1303 9.34808H13.0527V10.593C13.441 9.9939 14.1359 9.14172 15.6865 9.14172C17.6093 9.14172 19.051 10.3984 19.051 13.099V18.1406Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+
+                                    </li>
+                                    <li class="footer__socail-item">
+                                        <a href="#" class="footer__social-link">
+                                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.003 0H11.997C5.3805 0 0 5.382 0 12C0 14.625 0.846 17.058 2.2845 19.0335L0.789 23.4915L5.4015 22.017C7.299 23.274 9.5625 24 12.003 24C18.6195 24 24 18.6165 24 12C24 5.3835 18.6195 0 12.003 0ZM18.9855 16.9455C18.696 17.763 17.547 18.441 16.6305 18.639C16.0035 18.7725 15.1845 18.879 12.4275 17.736C8.901 16.275 6.63 12.6915 6.453 12.459C6.2835 12.2265 5.028 10.5615 5.028 8.8395C5.028 7.1175 5.9025 6.279 6.255 5.919C6.5445 5.6235 7.023 5.4885 7.482 5.4885C7.6305 5.4885 7.764 5.496 7.884 5.502C8.2365 5.517 8.4135 5.538 8.646 6.0945C8.9355 6.792 9.6405 8.514 9.7245 8.691C9.81 8.868 9.8955 9.108 9.7755 9.3405C9.663 9.5805 9.564 9.687 9.387 9.891C9.21 10.095 9.042 10.251 8.865 10.47C8.703 10.6605 8.52 10.8645 8.724 11.217C8.928 11.562 9.633 12.7125 10.671 13.6365C12.0105 14.829 13.0965 15.21 13.485 15.372C13.7745 15.492 14.1195 15.4635 14.331 15.2385C14.5995 14.949 14.931 14.469 15.2685 13.9965C15.5085 13.6575 15.8115 13.6155 16.1295 13.7355C16.4535 13.848 18.168 14.6955 18.5205 14.871C18.873 15.048 19.1055 15.132 19.191 15.2805C19.275 15.429 19.275 16.1265 18.9855 16.9455Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="footer__socail-item">
+                                        <a href="#" class="footer__social-link">
+                                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M38.8096 24.2216C41.7034 11.2196 30.3113 -0.592122 16.933 1.67533C9.6702 -2.83127 -0.000183105 2.26133 -0.000183105 10.9016C-0.000183105 12.911 0.554266 14.7922 1.51831 16.4137C-1.17069 29.4458 10.3146 41.0877 23.6813 38.6654C33.1302 43.6614 43.5715 33.6976 38.8096 24.2216ZM26.0922 32.0628C22.5824 33.5062 16.8064 33.5145 13.3116 31.6849C8.3282 29.0279 7.44242 23.0463 11.7415 23.0463C14.9816 23.0463 13.9559 26.8237 17.2277 28.3636C18.7295 29.0579 21.958 29.1294 23.8344 27.8642C25.6876 26.6239 25.5178 24.6728 24.5104 23.7405C21.8414 21.2766 14.204 22.2555 10.7125 17.942C9.19567 16.0708 8.90929 12.7695 10.7741 10.3755C14.0242 6.19358 23.5614 5.93886 27.6623 9.09698C31.4485 12.027 30.4262 15.916 27.3709 15.916C23.6963 15.916 25.6277 11.108 19.6952 11.108C15.3945 11.108 13.7029 14.1663 16.7315 15.6546C20.8374 17.694 31.3004 17.0131 31.3004 24.9824C31.292 28.2987 29.2591 30.7709 26.0922 32.0628Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="footer__socail-item">
+                                        <a href="#" class="footer__social-link">
+                                            <svg width="40" height="39" viewBox="0 0 40 39" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M20 0C8.95 0 0 8.81517 0 19.6872C0 28.3872 5.73 35.7649 13.675 38.366C14.675 38.5514 15.0417 37.942 15.0417 37.4194C15.0417 36.9519 15.025 35.7131 15.0167 34.072C9.45333 35.259 8.28 31.4308 8.28 31.4308C7.37 29.1585 6.055 28.5508 6.055 28.5508C4.24333 27.3304 6.195 27.3554 6.195 27.3554C8.20333 27.4923 9.25833 29.3839 9.25833 29.3839C11.0417 32.3941 13.94 31.5243 15.0833 31.0217C15.2633 29.7479 15.7783 28.8814 16.35 28.3889C11.9083 27.8964 7.24 26.2034 7.24 18.6605C7.24 16.5118 8.015 14.7554 9.29833 13.378C9.07333 12.8805 8.39833 10.8787 9.47333 8.16739C9.47333 8.16739 11.1483 7.63982 14.9733 10.1859C16.5733 9.74845 18.2733 9.53141 19.9733 9.52139C21.6733 9.53141 23.3733 9.74845 24.9733 10.1859C28.7733 7.63982 30.4483 8.16739 30.4483 8.16739C31.5233 10.8787 30.8483 12.8805 30.6483 13.378C31.9233 14.7554 32.6983 16.5118 32.6983 18.6605C32.6983 26.2235 28.0233 27.888 23.5733 28.3722C24.2733 28.9632 24.9233 30.1703 24.9233 32.0151C24.9233 34.6496 24.8983 36.7666 24.8983 37.4061C24.8983 37.9219 25.2483 38.538 26.2733 38.341C34.275 35.7565 40 28.3738 40 19.6872C40 8.81517 31.045 0 20 0Z"
+                                                    fill="white" />
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer__item footer__item-services">
+                                <h4 class="footer__item-title">
+                                    Services
+                                </h4>
+                                <ul class="footer__item-list">
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            Mobile Application Development
+                                        </a>
+                                    </li>
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            Game Development Outsourcing
+                                        </a>
+                                    </li>
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            VR App Development
+                                        </a>
+                                    </li>
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            Dedicated Developers
+                                        </a>
+                                    </li>
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            SDK Development
+                                        </a>
+                                    </li>
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            3D Modeling services
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer__item footer__item-technologies">
+                                <h4 class="footer__item-title">
+                                    Technologies
+                                </h4>
+                                <ul class="footer__item-list">
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            Android
+                                        </a>
+                                    </li>
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            IOS
+                                        </a>
+                                    </li>
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            Unity
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer__item footer__item-titles">
+                                <h4 class="footer__item-title">
+                                    <a class="footer__title-link" href="#">
+                                        products
+                                    </a>
+                                </h4>
+                                <h4 class="footer__item-title">
+                                    <a class="footer__title-link" href="#">
+                                        Portfolio
+                                    </a>
+                                </h4>
+                                <h4 class="footer__item-title">
+                                    <a class="footer__title-link" href="#">
+                                        Blog
+                                    </a>
+                                </h4>
+                            </li>
+                            <li class="footer__item footer__item-about">
+                                <h4 class="footer__item-title">
+                                    About us
+                                </h4>
+                                <ul class="footer__item-list">
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            Contacts
+                                        </a>
+                                    </li>
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            Team
+                                        </a>
+                                    </li>
+                                    <li class="footer__item-category">
+                                        <a class="footer__category-link" href="#">
+                                            Join the Team
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container-fluid">
+
+                    <div class="footer__bottom-inner">
+                        <div class="footer__right footer__right-width">
+                            <a class="footer__right-link" href="#">
+                                © 2021 - Stan’s Assets. All Right Reserved
+                            </a>
+                        </div>
+                        <div class="footer__right">
+                            <a class="footer__right-link" href="#">
+                                Privacy policy
+                            </a>
+                        </div>
+                        <div class="footer__right">
+                            <a class="footer__right-link" href="#">
+                                Cookies policy
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
